@@ -1,0 +1,114 @@
+body{
+  font-family:Tahoma;
+  margin:0;
+  background:#f4f6f9;
+  }
+  
+  header{
+  background:#111;
+  color:white;
+  padding:15px;
+  }
+  
+  nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  }
+  
+  nav ul{
+  list-style:none;
+  display:flex;
+  gap:20px;
+  }
+  
+  nav a{
+  color:white;
+  text-decoration:none;
+  }
+  
+  .hero{
+  text-align:center;
+  padding:100px 20px;
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:white;
+  }
+  
+  .btn{
+  background:#00b894;
+  padding:10px 20px;
+  color:white;
+  text-decoration:none;
+  }
+  
+  .btn2{
+  background:#0984e3;
+  padding:10px 20px;
+  color:white;
+  text-decoration:none;
+  }
+  
+  .about-container{
+  display:flex;
+  gap:40px;
+  padding:60px;
+  }
+  
+  .about-image img{
+  width:220px;
+  border-radius:50%;
+  }
+  
+  .skills-grid,
+  .project-grid,
+  .service-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+  padding:40px;
+  }
+  
+  .card,
+  .project,
+  .service{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .timeline{
+  padding:40px;
+  }
+  
+  .objective{
+  background:#2d3436;
+  color:white;
+  padding:60px;
+  text-align:center;
+  }
+  
+  .contact{
+  padding:60px;
+  text-align:center;
+  }
+  
+  input,textarea{
+  width:80%;
+  padding:10px;
+  margin:10px;
+  }
+  
+  button{
+  padding:10px 20px;
+  background:#00b894;
+  color:white;
+  border:none;
+  }
+  
+  footer{
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:20px;
+  }
